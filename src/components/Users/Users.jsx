@@ -1,14 +1,36 @@
 import React from 'react'
-import {Table, Row, Col, Form, ControlLabel, FormControl, Checkbox} from 'react-bootstrap';
+import {Table, Row, Col, Form, ControlLabel, FormControl, Checkbox, Button} from 'react-bootstrap';
+import PropsTypes from 'prop-types';
+import {setSearch, enableDisableUser} from '../../actions/UserActions';
+import {searchInLines} from '../../utils/SearchUtils'
+import {connect} from 'react-redux';
+
 import './Users.css';
 
+
 class Users extends React.Component {
+    constructor(props) {
+        super(props);
+        this.onSearchChange = this.onSearchChange.bind(this);
+        this.onChangeActive = this.onChangeActive.bind(this);
+    }
+
+    onSearchChange(e) {
+        const {value} = e.target;
+        this.props.setSearch(value);
+    }
+
+    onChangeActive(userId, e) {
+        this.props.enableDisableUser(userId, e.target.checked);
+    }
+
     render() {
+        const {search, users} = this.props;
         return <div>
             <Row>
                 <Form inline className="search">
                     <ControlLabel>Name</ControlLabel>{' '}
-                    <FormControl type="text" placeholder="Jane Doe"/>
+                    <FormControl value={search} onChange={this.onSearchChange} type="text" placeholder="search"/>
                 </Form>
             </Row>
             <Row>
@@ -23,26 +45,14 @@ class Users extends React.Component {
                     </tr>
                     </thead>
                     <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                        <td><Checkbox checked/></td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
-                        <td><Checkbox checked/></td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td colSpan="2">Larry the Bird</td>
-                        <td>@twitter</td>
-                        <td><Checkbox checked/></td>
-                    </tr>
+                    {users.map(user => <tr key={'user_' + user.id}>
+                        <td>{user.id}</td>
+                        <td><Button bsStyle="link" href={`#user/${user.id}`}>{user.firstName}</Button></td>
+                        <td>{user.lastName}</td>
+                        <td>{user.name}</td>
+                        <td><Checkbox checked={user.active}
+                                      onChange={e => this.onChangeActive(user.id, e)}/></td>
+                    </tr>)}
                     </tbody>
                 </Table>
             </Row>
@@ -50,4 +60,21 @@ class Users extends React.Component {
     }
 }
 
-export default Users;
+Users.propTypes = {
+    search: PropsTypes.string,
+    users: PropsTypes.array
+};
+
+const mapStateToProps = state => {
+    const {users: usersRaw, search} = state.users;
+    const users = usersRaw.filter(user => !search ||
+        searchInLines(search, user.firstName, user.lastName, user.name)
+    );
+    return {
+        search,
+        users
+    }
+};
+
+
+export default connect(mapStateToProps, {setSearch, enableDisableUser})(Users);

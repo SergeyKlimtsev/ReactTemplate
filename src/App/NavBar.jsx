@@ -6,12 +6,12 @@ const NavBar = props =>
     <Navbar>
         <Navbar.Header>
             <Navbar.Brand>
-                <a href="/">lil React</a>
+                <a href="#">lil React</a>
             </Navbar.Brand>
             <Navbar.Toggle/>
         </Navbar.Header>
         <Nav navbar>
-            <NavItem href="/users">
+            <NavItem href="#users">
                 Users
             </NavItem>
         </Nav>
