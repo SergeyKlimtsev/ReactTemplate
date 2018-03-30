@@ -3,6 +3,7 @@ import {Table, Row, Col, Form, ControlLabel, FormControl, Checkbox, Button} from
 import PropsTypes from 'prop-types';
 import {setSearch, enableDisableUser} from '../../actions/UserActions';
 import {searchInLines} from '../../utils/SearchUtils'
+import {fetchUsers} from '../../actions/UserActions'
 import {connect} from 'react-redux';
 
 import './Users.css';
@@ -13,6 +14,10 @@ class Users extends React.Component {
         super(props);
         this.onSearchChange = this.onSearchChange.bind(this);
         this.onChangeActive = this.onChangeActive.bind(this);
+    }
+
+    componentDidMount() {
+        this.props.fetchUsers();
     }
 
     onSearchChange(e) {
@@ -29,7 +34,6 @@ class Users extends React.Component {
         return <div>
             <Row>
                 <Form inline className="search">
-                    <ControlLabel>Name</ControlLabel>{' '}
                     <FormControl value={search} onChange={this.onSearchChange} type="text" placeholder="search"/>
                 </Form>
             </Row>
@@ -77,4 +81,4 @@ const mapStateToProps = state => {
 };
 
 
-export default connect(mapStateToProps, {setSearch, enableDisableUser})(Users);
+export default connect(mapStateToProps, {setSearch, enableDisableUser, fetchUsers})(Users);

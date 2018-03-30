@@ -1,0 +1,2424 @@
+exports["Snapshot test(0)"] = {
+  "node": {
+    "nodeType": "host",
+    "type": "div",
+    "props": {
+      "children": {
+        "type": "Row",
+        "props": {
+          "children": {
+            "type": "Col",
+            "props": {
+              "mdOffset": 2,
+              "md": 8,
+              "lgOffset": 3,
+              "lg": 6,
+              "children": {
+                "type": "Col",
+                "props": {
+                  "sm": 12,
+                  "children": {
+                    "type": "Col",
+                    "props": {
+                      "xs": 12,
+                      "sm": 8,
+                      "children": [
+                        {
+                          "type": "h2",
+                          "props": {
+                            "children": "firstName lastName"
+                          },
+                          "_store": {}
+                        },
+                        {
+                          "type": "p",
+                          "props": {
+                            "children": [
+                              {
+                                "type": "strong",
+                                "props": {
+                                  "children": "About: "
+                                },
+                                "_store": {}
+                              },
+                              "prof"
+                            ]
+                          },
+                          "_store": {}
+                        },
+                        {
+                          "type": "p",
+                          "props": {
+                            "children": [
+                              {
+                                "type": "strong",
+                                "props": {
+                                  "children": "Hobbies: "
+                                },
+                                "_store": {}
+                              },
+                              "h1,h2"
+                            ]
+                          },
+                          "_store": {}
+                        },
+                        {
+                          "type": "p",
+                          "props": {
+                            "children": [
+                              {
+                                "type": "strong",
+                                "props": {
+                                  "children": "Skills: "
+                                },
+                                "_store": {}
+                              },
+                              [
+                                {
+                                  "type": "span",
+                                  "props": {
+                                    "className": "hobbie",
+                                    "children": {
+                                      "type": "Label",
+                                      "props": {
+                                        "bsStyle": "default",
+                                        "children": "s1,s2",
+                                        "bsClass": "label"
+                                      },
+                                      "_store": {}
+                                    }
+                                  },
+                                  "_store": {}
+                                }
+                              ]
+                            ]
+                          },
+                          "_store": {}
+                        }
+                      ],
+                      "componentClass": "div",
+                      "bsClass": "col"
+                    },
+                    "_store": {}
+                  },
+                  "componentClass": "div",
+                  "bsClass": "col"
+                },
+                "_store": {}
+              },
+              "componentClass": "div",
+              "bsClass": "col"
+            },
+            "_store": {}
+          },
+          "componentClass": "div",
+          "bsClass": "row"
+        },
+        "_store": {}
+      }
+    },
+    "rendered": {
+      "nodeType": "class",
+      "type": "Row",
+      "props": {
+        "children": {
+          "type": "Col",
+          "props": {
+            "mdOffset": 2,
+            "md": 8,
+            "lgOffset": 3,
+            "lg": 6,
+            "children": {
+              "type": "Col",
+              "props": {
+                "sm": 12,
+                "children": {
+                  "type": "Col",
+                  "props": {
+                    "xs": 12,
+                    "sm": 8,
+                    "children": [
+                      {
+                        "type": "h2",
+                        "props": {
+                          "children": "firstName lastName"
+                        },
+                        "_store": {}
+                      },
+                      {
+                        "type": "p",
+                        "props": {
+                          "children": [
+                            {
+                              "type": "strong",
+                              "props": {
+                                "children": "About: "
+                              },
+                              "_store": {}
+                            },
+                            "prof"
+                          ]
+                        },
+                        "_store": {}
+                      },
+                      {
+                        "type": "p",
+                        "props": {
+                          "children": [
+                            {
+                              "type": "strong",
+                              "props": {
+                                "children": "Hobbies: "
+                              },
+                              "_store": {}
+                            },
+                            "h1,h2"
+                          ]
+                        },
+                        "_store": {}
+                      },
+                      {
+                        "type": "p",
+                        "props": {
+                          "children": [
+                            {
+                              "type": "strong",
+                              "props": {
+                                "children": "Skills: "
+                              },
+                              "_store": {}
+                            },
+                            [
+                              {
+                                "type": "span",
+                                "props": {
+                                  "className": "hobbie",
+                                  "children": {
+                                    "type": "Label",
+                                    "props": {
+                                      "bsStyle": "default",
+                                      "children": "s1,s2",
+                                      "bsClass": "label"
+                                    },
+                                    "_store": {}
+                                  }
+                                },
+                                "_store": {}
+                              }
+                            ]
+                          ]
+                        },
+                        "_store": {}
+                      }
+                    ],
+                    "componentClass": "div",
+                    "bsClass": "col"
+                  },
+                  "_store": {}
+                },
+                "componentClass": "div",
+                "bsClass": "col"
+              },
+              "_store": {}
+            },
+            "componentClass": "div",
+            "bsClass": "col"
+          },
+          "_store": {}
+        },
+        "componentClass": "div",
+        "bsClass": "row"
+      },
+      "rendered": {
+        "nodeType": "class",
+        "type": "Col",
+        "props": {
+          "mdOffset": 2,
+          "md": 8,
+          "lgOffset": 3,
+          "lg": 6,
+          "children": {
+            "type": "Col",
+            "props": {
+              "sm": 12,
+              "children": {
+                "type": "Col",
+                "props": {
+                  "xs": 12,
+                  "sm": 8,
+                  "children": [
+                    {
+                      "type": "h2",
+                      "props": {
+                        "children": "firstName lastName"
+                      },
+                      "_store": {}
+                    },
+                    {
+                      "type": "p",
+                      "props": {
+                        "children": [
+                          {
+                            "type": "strong",
+                            "props": {
+                              "children": "About: "
+                            },
+                            "_store": {}
+                          },
+                          "prof"
+                        ]
+                      },
+                      "_store": {}
+                    },
+                    {
+                      "type": "p",
+                      "props": {
+                        "children": [
+                          {
+                            "type": "strong",
+                            "props": {
+                              "children": "Hobbies: "
+                            },
+                            "_store": {}
+                          },
+                          "h1,h2"
+                        ]
+                      },
+                      "_store": {}
+                    },
+                    {
+                      "type": "p",
+                      "props": {
+                        "children": [
+                          {
+                            "type": "strong",
+                            "props": {
+                              "children": "Skills: "
+                            },
+                            "_store": {}
+                          },
+                          [
+                            {
+                              "type": "span",
+                              "props": {
+                                "className": "hobbie",
+                                "children": {
+                                  "type": "Label",
+                                  "props": {
+                                    "bsStyle": "default",
+                                    "children": "s1,s2",
+                                    "bsClass": "label"
+                                  },
+                                  "_store": {}
+                                }
+                              },
+                              "_store": {}
+                            }
+                          ]
+                        ]
+                      },
+                      "_store": {}
+                    }
+                  ],
+                  "componentClass": "div",
+                  "bsClass": "col"
+                },
+                "_store": {}
+              },
+              "componentClass": "div",
+              "bsClass": "col"
+            },
+            "_store": {}
+          },
+          "componentClass": "div",
+          "bsClass": "col"
+        },
+        "rendered": {
+          "nodeType": "class",
+          "type": "Col",
+          "props": {
+            "sm": 12,
+            "children": {
+              "type": "Col",
+              "props": {
+                "xs": 12,
+                "sm": 8,
+                "children": [
+                  {
+                    "type": "h2",
+                    "props": {
+                      "children": "firstName lastName"
+                    },
+                    "_store": {}
+                  },
+                  {
+                    "type": "p",
+                    "props": {
+                      "children": [
+                        {
+                          "type": "strong",
+                          "props": {
+                            "children": "About: "
+                          },
+                          "_store": {}
+                        },
+                        "prof"
+                      ]
+                    },
+                    "_store": {}
+                  },
+                  {
+                    "type": "p",
+                    "props": {
+                      "children": [
+                        {
+                          "type": "strong",
+                          "props": {
+                            "children": "Hobbies: "
+                          },
+                          "_store": {}
+                        },
+                        "h1,h2"
+                      ]
+                    },
+                    "_store": {}
+                  },
+                  {
+                    "type": "p",
+                    "props": {
+                      "children": [
+                        {
+                          "type": "strong",
+                          "props": {
+                            "children": "Skills: "
+                          },
+                          "_store": {}
+                        },
+                        [
+                          {
+                            "type": "span",
+                            "props": {
+                              "className": "hobbie",
+                              "children": {
+                                "type": "Label",
+                                "props": {
+                                  "bsStyle": "default",
+                                  "children": "s1,s2",
+                                  "bsClass": "label"
+                                },
+                                "_store": {}
+                              }
+                            },
+                            "_store": {}
+                          }
+                        ]
+                      ]
+                    },
+                    "_store": {}
+                  }
+                ],
+                "componentClass": "div",
+                "bsClass": "col"
+              },
+              "_store": {}
+            },
+            "componentClass": "div",
+            "bsClass": "col"
+          },
+          "rendered": {
+            "nodeType": "class",
+            "type": "Col",
+            "props": {
+              "xs": 12,
+              "sm": 8,
+              "children": [
+                {
+                  "type": "h2",
+                  "props": {
+                    "children": "firstName lastName"
+                  },
+                  "_store": {}
+                },
+                {
+                  "type": "p",
+                  "props": {
+                    "children": [
+                      {
+                        "type": "strong",
+                        "props": {
+                          "children": "About: "
+                        },
+                        "_store": {}
+                      },
+                      "prof"
+                    ]
+                  },
+                  "_store": {}
+                },
+                {
+                  "type": "p",
+                  "props": {
+                    "children": [
+                      {
+                        "type": "strong",
+                        "props": {
+                          "children": "Hobbies: "
+                        },
+                        "_store": {}
+                      },
+                      "h1,h2"
+                    ]
+                  },
+                  "_store": {}
+                },
+                {
+                  "type": "p",
+                  "props": {
+                    "children": [
+                      {
+                        "type": "strong",
+                        "props": {
+                          "children": "Skills: "
+                        },
+                        "_store": {}
+                      },
+                      [
+                        {
+                          "type": "span",
+                          "props": {
+                            "className": "hobbie",
+                            "children": {
+                              "type": "Label",
+                              "props": {
+                                "bsStyle": "default",
+                                "children": "s1,s2",
+                                "bsClass": "label"
+                              },
+                              "_store": {}
+                            }
+                          },
+                          "_store": {}
+                        }
+                      ]
+                    ]
+                  },
+                  "_store": {}
+                }
+              ],
+              "componentClass": "div",
+              "bsClass": "col"
+            },
+            "rendered": [
+              {
+                "nodeType": "host",
+                "type": "h2",
+                "props": {
+                  "children": "firstName lastName"
+                },
+                "rendered": "firstName lastName"
+              },
+              {
+                "nodeType": "host",
+                "type": "p",
+                "props": {
+                  "children": [
+                    {
+                      "type": "strong",
+                      "props": {
+                        "children": "About: "
+                      },
+                      "_store": {}
+                    },
+                    "prof"
+                  ]
+                },
+                "rendered": [
+                  {
+                    "nodeType": "host",
+                    "type": "strong",
+                    "props": {
+                      "children": "About: "
+                    },
+                    "rendered": "About: "
+                  },
+                  "prof"
+                ]
+              },
+              {
+                "nodeType": "host",
+                "type": "p",
+                "props": {
+                  "children": [
+                    {
+                      "type": "strong",
+                      "props": {
+                        "children": "Hobbies: "
+                      },
+                      "_store": {}
+                    },
+                    "h1,h2"
+                  ]
+                },
+                "rendered": [
+                  {
+                    "nodeType": "host",
+                    "type": "strong",
+                    "props": {
+                      "children": "Hobbies: "
+                    },
+                    "rendered": "Hobbies: "
+                  },
+                  "h1,h2"
+                ]
+              },
+              {
+                "nodeType": "host",
+                "type": "p",
+                "props": {
+                  "children": [
+                    {
+                      "type": "strong",
+                      "props": {
+                        "children": "Skills: "
+                      },
+                      "_store": {}
+                    },
+                    [
+                      {
+                        "type": "span",
+                        "props": {
+                          "className": "hobbie",
+                          "children": {
+                            "type": "Label",
+                            "props": {
+                              "bsStyle": "default",
+                              "children": "s1,s2",
+                              "bsClass": "label"
+                            },
+                            "_store": {}
+                          }
+                        },
+                        "_store": {}
+                      }
+                    ]
+                  ]
+                },
+                "rendered": [
+                  {
+                    "nodeType": "host",
+                    "type": "strong",
+                    "props": {
+                      "children": "Skills: "
+                    },
+                    "rendered": "Skills: "
+                  },
+                  {
+                    "nodeType": "host",
+                    "type": "span",
+                    "props": {
+                      "className": "hobbie",
+                      "children": {
+                        "type": "Label",
+                        "props": {
+                          "bsStyle": "default",
+                          "children": "s1,s2",
+                          "bsClass": "label"
+                        },
+                        "_store": {}
+                      }
+                    },
+                    "rendered": {
+                      "nodeType": "class",
+                      "type": "Label",
+                      "props": {
+                        "bsStyle": "default",
+                        "children": "s1,s2",
+                        "bsClass": "label"
+                      },
+                      "rendered": "s1,s2"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "type": "div",
+  "props": {},
+  "children": [
+    {
+      "node": {
+        "nodeType": "class",
+        "type": "Row",
+        "props": {
+          "children": {
+            "type": "Col",
+            "props": {
+              "mdOffset": 2,
+              "md": 8,
+              "lgOffset": 3,
+              "lg": 6,
+              "children": {
+                "type": "Col",
+                "props": {
+                  "sm": 12,
+                  "children": {
+                    "type": "Col",
+                    "props": {
+                      "xs": 12,
+                      "sm": 8,
+                      "children": [
+                        {
+                          "type": "h2",
+                          "props": {
+                            "children": "firstName lastName"
+                          },
+                          "_store": {}
+                        },
+                        {
+                          "type": "p",
+                          "props": {
+                            "children": [
+                              {
+                                "type": "strong",
+                                "props": {
+                                  "children": "About: "
+                                },
+                                "_store": {}
+                              },
+                              "prof"
+                            ]
+                          },
+                          "_store": {}
+                        },
+                        {
+                          "type": "p",
+                          "props": {
+                            "children": [
+                              {
+                                "type": "strong",
+                                "props": {
+                                  "children": "Hobbies: "
+                                },
+                                "_store": {}
+                              },
+                              "h1,h2"
+                            ]
+                          },
+                          "_store": {}
+                        },
+                        {
+                          "type": "p",
+                          "props": {
+                            "children": [
+                              {
+                                "type": "strong",
+                                "props": {
+                                  "children": "Skills: "
+                                },
+                                "_store": {}
+                              },
+                              [
+                                {
+                                  "type": "span",
+                                  "props": {
+                                    "className": "hobbie",
+                                    "children": {
+                                      "type": "Label",
+                                      "props": {
+                                        "bsStyle": "default",
+                                        "children": "s1,s2",
+                                        "bsClass": "label"
+                                      },
+                                      "_store": {}
+                                    }
+                                  },
+                                  "_store": {}
+                                }
+                              ]
+                            ]
+                          },
+                          "_store": {}
+                        }
+                      ],
+                      "componentClass": "div",
+                      "bsClass": "col"
+                    },
+                    "_store": {}
+                  },
+                  "componentClass": "div",
+                  "bsClass": "col"
+                },
+                "_store": {}
+              },
+              "componentClass": "div",
+              "bsClass": "col"
+            },
+            "_store": {}
+          },
+          "componentClass": "div",
+          "bsClass": "row"
+        },
+        "rendered": {
+          "nodeType": "class",
+          "type": "Col",
+          "props": {
+            "mdOffset": 2,
+            "md": 8,
+            "lgOffset": 3,
+            "lg": 6,
+            "children": {
+              "type": "Col",
+              "props": {
+                "sm": 12,
+                "children": {
+                  "type": "Col",
+                  "props": {
+                    "xs": 12,
+                    "sm": 8,
+                    "children": [
+                      {
+                        "type": "h2",
+                        "props": {
+                          "children": "firstName lastName"
+                        },
+                        "_store": {}
+                      },
+                      {
+                        "type": "p",
+                        "props": {
+                          "children": [
+                            {
+                              "type": "strong",
+                              "props": {
+                                "children": "About: "
+                              },
+                              "_store": {}
+                            },
+                            "prof"
+                          ]
+                        },
+                        "_store": {}
+                      },
+                      {
+                        "type": "p",
+                        "props": {
+                          "children": [
+                            {
+                              "type": "strong",
+                              "props": {
+                                "children": "Hobbies: "
+                              },
+                              "_store": {}
+                            },
+                            "h1,h2"
+                          ]
+                        },
+                        "_store": {}
+                      },
+                      {
+                        "type": "p",
+                        "props": {
+                          "children": [
+                            {
+                              "type": "strong",
+                              "props": {
+                                "children": "Skills: "
+                              },
+                              "_store": {}
+                            },
+                            [
+                              {
+                                "type": "span",
+                                "props": {
+                                  "className": "hobbie",
+                                  "children": {
+                                    "type": "Label",
+                                    "props": {
+                                      "bsStyle": "default",
+                                      "children": "s1,s2",
+                                      "bsClass": "label"
+                                    },
+                                    "_store": {}
+                                  }
+                                },
+                                "_store": {}
+                              }
+                            ]
+                          ]
+                        },
+                        "_store": {}
+                      }
+                    ],
+                    "componentClass": "div",
+                    "bsClass": "col"
+                  },
+                  "_store": {}
+                },
+                "componentClass": "div",
+                "bsClass": "col"
+              },
+              "_store": {}
+            },
+            "componentClass": "div",
+            "bsClass": "col"
+          },
+          "rendered": {
+            "nodeType": "class",
+            "type": "Col",
+            "props": {
+              "sm": 12,
+              "children": {
+                "type": "Col",
+                "props": {
+                  "xs": 12,
+                  "sm": 8,
+                  "children": [
+                    {
+                      "type": "h2",
+                      "props": {
+                        "children": "firstName lastName"
+                      },
+                      "_store": {}
+                    },
+                    {
+                      "type": "p",
+                      "props": {
+                        "children": [
+                          {
+                            "type": "strong",
+                            "props": {
+                              "children": "About: "
+                            },
+                            "_store": {}
+                          },
+                          "prof"
+                        ]
+                      },
+                      "_store": {}
+                    },
+                    {
+                      "type": "p",
+                      "props": {
+                        "children": [
+                          {
+                            "type": "strong",
+                            "props": {
+                              "children": "Hobbies: "
+                            },
+                            "_store": {}
+                          },
+                          "h1,h2"
+                        ]
+                      },
+                      "_store": {}
+                    },
+                    {
+                      "type": "p",
+                      "props": {
+                        "children": [
+                          {
+                            "type": "strong",
+                            "props": {
+                              "children": "Skills: "
+                            },
+                            "_store": {}
+                          },
+                          [
+                            {
+                              "type": "span",
+                              "props": {
+                                "className": "hobbie",
+                                "children": {
+                                  "type": "Label",
+                                  "props": {
+                                    "bsStyle": "default",
+                                    "children": "s1,s2",
+                                    "bsClass": "label"
+                                  },
+                                  "_store": {}
+                                }
+                              },
+                              "_store": {}
+                            }
+                          ]
+                        ]
+                      },
+                      "_store": {}
+                    }
+                  ],
+                  "componentClass": "div",
+                  "bsClass": "col"
+                },
+                "_store": {}
+              },
+              "componentClass": "div",
+              "bsClass": "col"
+            },
+            "rendered": {
+              "nodeType": "class",
+              "type": "Col",
+              "props": {
+                "xs": 12,
+                "sm": 8,
+                "children": [
+                  {
+                    "type": "h2",
+                    "props": {
+                      "children": "firstName lastName"
+                    },
+                    "_store": {}
+                  },
+                  {
+                    "type": "p",
+                    "props": {
+                      "children": [
+                        {
+                          "type": "strong",
+                          "props": {
+                            "children": "About: "
+                          },
+                          "_store": {}
+                        },
+                        "prof"
+                      ]
+                    },
+                    "_store": {}
+                  },
+                  {
+                    "type": "p",
+                    "props": {
+                      "children": [
+                        {
+                          "type": "strong",
+                          "props": {
+                            "children": "Hobbies: "
+                          },
+                          "_store": {}
+                        },
+                        "h1,h2"
+                      ]
+                    },
+                    "_store": {}
+                  },
+                  {
+                    "type": "p",
+                    "props": {
+                      "children": [
+                        {
+                          "type": "strong",
+                          "props": {
+                            "children": "Skills: "
+                          },
+                          "_store": {}
+                        },
+                        [
+                          {
+                            "type": "span",
+                            "props": {
+                              "className": "hobbie",
+                              "children": {
+                                "type": "Label",
+                                "props": {
+                                  "bsStyle": "default",
+                                  "children": "s1,s2",
+                                  "bsClass": "label"
+                                },
+                                "_store": {}
+                              }
+                            },
+                            "_store": {}
+                          }
+                        ]
+                      ]
+                    },
+                    "_store": {}
+                  }
+                ],
+                "componentClass": "div",
+                "bsClass": "col"
+              },
+              "rendered": [
+                {
+                  "nodeType": "host",
+                  "type": "h2",
+                  "props": {
+                    "children": "firstName lastName"
+                  },
+                  "rendered": "firstName lastName"
+                },
+                {
+                  "nodeType": "host",
+                  "type": "p",
+                  "props": {
+                    "children": [
+                      {
+                        "type": "strong",
+                        "props": {
+                          "children": "About: "
+                        },
+                        "_store": {}
+                      },
+                      "prof"
+                    ]
+                  },
+                  "rendered": [
+                    {
+                      "nodeType": "host",
+                      "type": "strong",
+                      "props": {
+                        "children": "About: "
+                      },
+                      "rendered": "About: "
+                    },
+                    "prof"
+                  ]
+                },
+                {
+                  "nodeType": "host",
+                  "type": "p",
+                  "props": {
+                    "children": [
+                      {
+                        "type": "strong",
+                        "props": {
+                          "children": "Hobbies: "
+                        },
+                        "_store": {}
+                      },
+                      "h1,h2"
+                    ]
+                  },
+                  "rendered": [
+                    {
+                      "nodeType": "host",
+                      "type": "strong",
+                      "props": {
+                        "children": "Hobbies: "
+                      },
+                      "rendered": "Hobbies: "
+                    },
+                    "h1,h2"
+                  ]
+                },
+                {
+                  "nodeType": "host",
+                  "type": "p",
+                  "props": {
+                    "children": [
+                      {
+                        "type": "strong",
+                        "props": {
+                          "children": "Skills: "
+                        },
+                        "_store": {}
+                      },
+                      [
+                        {
+                          "type": "span",
+                          "props": {
+                            "className": "hobbie",
+                            "children": {
+                              "type": "Label",
+                              "props": {
+                                "bsStyle": "default",
+                                "children": "s1,s2",
+                                "bsClass": "label"
+                              },
+                              "_store": {}
+                            }
+                          },
+                          "_store": {}
+                        }
+                      ]
+                    ]
+                  },
+                  "rendered": [
+                    {
+                      "nodeType": "host",
+                      "type": "strong",
+                      "props": {
+                        "children": "Skills: "
+                      },
+                      "rendered": "Skills: "
+                    },
+                    {
+                      "nodeType": "host",
+                      "type": "span",
+                      "props": {
+                        "className": "hobbie",
+                        "children": {
+                          "type": "Label",
+                          "props": {
+                            "bsStyle": "default",
+                            "children": "s1,s2",
+                            "bsClass": "label"
+                          },
+                          "_store": {}
+                        }
+                      },
+                      "rendered": {
+                        "nodeType": "class",
+                        "type": "Label",
+                        "props": {
+                          "bsStyle": "default",
+                          "children": "s1,s2",
+                          "bsClass": "label"
+                        },
+                        "rendered": "s1,s2"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "type": "Row",
+      "props": {
+        "componentClass": "div",
+        "bsClass": "row"
+      },
+      "children": [
+        {
+          "node": {
+            "nodeType": "class",
+            "type": "Col",
+            "props": {
+              "mdOffset": 2,
+              "md": 8,
+              "lgOffset": 3,
+              "lg": 6,
+              "children": {
+                "type": "Col",
+                "props": {
+                  "sm": 12,
+                  "children": {
+                    "type": "Col",
+                    "props": {
+                      "xs": 12,
+                      "sm": 8,
+                      "children": [
+                        {
+                          "type": "h2",
+                          "props": {
+                            "children": "firstName lastName"
+                          },
+                          "_store": {}
+                        },
+                        {
+                          "type": "p",
+                          "props": {
+                            "children": [
+                              {
+                                "type": "strong",
+                                "props": {
+                                  "children": "About: "
+                                },
+                                "_store": {}
+                              },
+                              "prof"
+                            ]
+                          },
+                          "_store": {}
+                        },
+                        {
+                          "type": "p",
+                          "props": {
+                            "children": [
+                              {
+                                "type": "strong",
+                                "props": {
+                                  "children": "Hobbies: "
+                                },
+                                "_store": {}
+                              },
+                              "h1,h2"
+                            ]
+                          },
+                          "_store": {}
+                        },
+                        {
+                          "type": "p",
+                          "props": {
+                            "children": [
+                              {
+                                "type": "strong",
+                                "props": {
+                                  "children": "Skills: "
+                                },
+                                "_store": {}
+                              },
+                              [
+                                {
+                                  "type": "span",
+                                  "props": {
+                                    "className": "hobbie",
+                                    "children": {
+                                      "type": "Label",
+                                      "props": {
+                                        "bsStyle": "default",
+                                        "children": "s1,s2",
+                                        "bsClass": "label"
+                                      },
+                                      "_store": {}
+                                    }
+                                  },
+                                  "_store": {}
+                                }
+                              ]
+                            ]
+                          },
+                          "_store": {}
+                        }
+                      ],
+                      "componentClass": "div",
+                      "bsClass": "col"
+                    },
+                    "_store": {}
+                  },
+                  "componentClass": "div",
+                  "bsClass": "col"
+                },
+                "_store": {}
+              },
+              "componentClass": "div",
+              "bsClass": "col"
+            },
+            "rendered": {
+              "nodeType": "class",
+              "type": "Col",
+              "props": {
+                "sm": 12,
+                "children": {
+                  "type": "Col",
+                  "props": {
+                    "xs": 12,
+                    "sm": 8,
+                    "children": [
+                      {
+                        "type": "h2",
+                        "props": {
+                          "children": "firstName lastName"
+                        },
+                        "_store": {}
+                      },
+                      {
+                        "type": "p",
+                        "props": {
+                          "children": [
+                            {
+                              "type": "strong",
+                              "props": {
+                                "children": "About: "
+                              },
+                              "_store": {}
+                            },
+                            "prof"
+                          ]
+                        },
+                        "_store": {}
+                      },
+                      {
+                        "type": "p",
+                        "props": {
+                          "children": [
+                            {
+                              "type": "strong",
+                              "props": {
+                                "children": "Hobbies: "
+                              },
+                              "_store": {}
+                            },
+                            "h1,h2"
+                          ]
+                        },
+                        "_store": {}
+                      },
+                      {
+                        "type": "p",
+                        "props": {
+                          "children": [
+                            {
+                              "type": "strong",
+                              "props": {
+                                "children": "Skills: "
+                              },
+                              "_store": {}
+                            },
+                            [
+                              {
+                                "type": "span",
+                                "props": {
+                                  "className": "hobbie",
+                                  "children": {
+                                    "type": "Label",
+                                    "props": {
+                                      "bsStyle": "default",
+                                      "children": "s1,s2",
+                                      "bsClass": "label"
+                                    },
+                                    "_store": {}
+                                  }
+                                },
+                                "_store": {}
+                              }
+                            ]
+                          ]
+                        },
+                        "_store": {}
+                      }
+                    ],
+                    "componentClass": "div",
+                    "bsClass": "col"
+                  },
+                  "_store": {}
+                },
+                "componentClass": "div",
+                "bsClass": "col"
+              },
+              "rendered": {
+                "nodeType": "class",
+                "type": "Col",
+                "props": {
+                  "xs": 12,
+                  "sm": 8,
+                  "children": [
+                    {
+                      "type": "h2",
+                      "props": {
+                        "children": "firstName lastName"
+                      },
+                      "_store": {}
+                    },
+                    {
+                      "type": "p",
+                      "props": {
+                        "children": [
+                          {
+                            "type": "strong",
+                            "props": {
+                              "children": "About: "
+                            },
+                            "_store": {}
+                          },
+                          "prof"
+                        ]
+                      },
+                      "_store": {}
+                    },
+                    {
+                      "type": "p",
+                      "props": {
+                        "children": [
+                          {
+                            "type": "strong",
+                            "props": {
+                              "children": "Hobbies: "
+                            },
+                            "_store": {}
+                          },
+                          "h1,h2"
+                        ]
+                      },
+                      "_store": {}
+                    },
+                    {
+                      "type": "p",
+                      "props": {
+                        "children": [
+                          {
+                            "type": "strong",
+                            "props": {
+                              "children": "Skills: "
+                            },
+                            "_store": {}
+                          },
+                          [
+                            {
+                              "type": "span",
+                              "props": {
+                                "className": "hobbie",
+                                "children": {
+                                  "type": "Label",
+                                  "props": {
+                                    "bsStyle": "default",
+                                    "children": "s1,s2",
+                                    "bsClass": "label"
+                                  },
+                                  "_store": {}
+                                }
+                              },
+                              "_store": {}
+                            }
+                          ]
+                        ]
+                      },
+                      "_store": {}
+                    }
+                  ],
+                  "componentClass": "div",
+                  "bsClass": "col"
+                },
+                "rendered": [
+                  {
+                    "nodeType": "host",
+                    "type": "h2",
+                    "props": {
+                      "children": "firstName lastName"
+                    },
+                    "rendered": "firstName lastName"
+                  },
+                  {
+                    "nodeType": "host",
+                    "type": "p",
+                    "props": {
+                      "children": [
+                        {
+                          "type": "strong",
+                          "props": {
+                            "children": "About: "
+                          },
+                          "_store": {}
+                        },
+                        "prof"
+                      ]
+                    },
+                    "rendered": [
+                      {
+                        "nodeType": "host",
+                        "type": "strong",
+                        "props": {
+                          "children": "About: "
+                        },
+                        "rendered": "About: "
+                      },
+                      "prof"
+                    ]
+                  },
+                  {
+                    "nodeType": "host",
+                    "type": "p",
+                    "props": {
+                      "children": [
+                        {
+                          "type": "strong",
+                          "props": {
+                            "children": "Hobbies: "
+                          },
+                          "_store": {}
+                        },
+                        "h1,h2"
+                      ]
+                    },
+                    "rendered": [
+                      {
+                        "nodeType": "host",
+                        "type": "strong",
+                        "props": {
+                          "children": "Hobbies: "
+                        },
+                        "rendered": "Hobbies: "
+                      },
+                      "h1,h2"
+                    ]
+                  },
+                  {
+                    "nodeType": "host",
+                    "type": "p",
+                    "props": {
+                      "children": [
+                        {
+                          "type": "strong",
+                          "props": {
+                            "children": "Skills: "
+                          },
+                          "_store": {}
+                        },
+                        [
+                          {
+                            "type": "span",
+                            "props": {
+                              "className": "hobbie",
+                              "children": {
+                                "type": "Label",
+                                "props": {
+                                  "bsStyle": "default",
+                                  "children": "s1,s2",
+                                  "bsClass": "label"
+                                },
+                                "_store": {}
+                              }
+                            },
+                            "_store": {}
+                          }
+                        ]
+                      ]
+                    },
+                    "rendered": [
+                      {
+                        "nodeType": "host",
+                        "type": "strong",
+                        "props": {
+                          "children": "Skills: "
+                        },
+                        "rendered": "Skills: "
+                      },
+                      {
+                        "nodeType": "host",
+                        "type": "span",
+                        "props": {
+                          "className": "hobbie",
+                          "children": {
+                            "type": "Label",
+                            "props": {
+                              "bsStyle": "default",
+                              "children": "s1,s2",
+                              "bsClass": "label"
+                            },
+                            "_store": {}
+                          }
+                        },
+                        "rendered": {
+                          "nodeType": "class",
+                          "type": "Label",
+                          "props": {
+                            "bsStyle": "default",
+                            "children": "s1,s2",
+                            "bsClass": "label"
+                          },
+                          "rendered": "s1,s2"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "type": "Col",
+          "props": {
+            "mdOffset": 2,
+            "md": 8,
+            "lgOffset": 3,
+            "lg": 6,
+            "componentClass": "div",
+            "bsClass": "col"
+          },
+          "children": [
+            {
+              "node": {
+                "nodeType": "class",
+                "type": "Col",
+                "props": {
+                  "sm": 12,
+                  "children": {
+                    "type": "Col",
+                    "props": {
+                      "xs": 12,
+                      "sm": 8,
+                      "children": [
+                        {
+                          "type": "h2",
+                          "props": {
+                            "children": "firstName lastName"
+                          },
+                          "_store": {}
+                        },
+                        {
+                          "type": "p",
+                          "props": {
+                            "children": [
+                              {
+                                "type": "strong",
+                                "props": {
+                                  "children": "About: "
+                                },
+                                "_store": {}
+                              },
+                              "prof"
+                            ]
+                          },
+                          "_store": {}
+                        },
+                        {
+                          "type": "p",
+                          "props": {
+                            "children": [
+                              {
+                                "type": "strong",
+                                "props": {
+                                  "children": "Hobbies: "
+                                },
+                                "_store": {}
+                              },
+                              "h1,h2"
+                            ]
+                          },
+                          "_store": {}
+                        },
+                        {
+                          "type": "p",
+                          "props": {
+                            "children": [
+                              {
+                                "type": "strong",
+                                "props": {
+                                  "children": "Skills: "
+                                },
+                                "_store": {}
+                              },
+                              [
+                                {
+                                  "type": "span",
+                                  "props": {
+                                    "className": "hobbie",
+                                    "children": {
+                                      "type": "Label",
+                                      "props": {
+                                        "bsStyle": "default",
+                                        "children": "s1,s2",
+                                        "bsClass": "label"
+                                      },
+                                      "_store": {}
+                                    }
+                                  },
+                                  "_store": {}
+                                }
+                              ]
+                            ]
+                          },
+                          "_store": {}
+                        }
+                      ],
+                      "componentClass": "div",
+                      "bsClass": "col"
+                    },
+                    "_store": {}
+                  },
+                  "componentClass": "div",
+                  "bsClass": "col"
+                },
+                "rendered": {
+                  "nodeType": "class",
+                  "type": "Col",
+                  "props": {
+                    "xs": 12,
+                    "sm": 8,
+                    "children": [
+                      {
+                        "type": "h2",
+                        "props": {
+                          "children": "firstName lastName"
+                        },
+                        "_store": {}
+                      },
+                      {
+                        "type": "p",
+                        "props": {
+                          "children": [
+                            {
+                              "type": "strong",
+                              "props": {
+                                "children": "About: "
+                              },
+                              "_store": {}
+                            },
+                            "prof"
+                          ]
+                        },
+                        "_store": {}
+                      },
+                      {
+                        "type": "p",
+                        "props": {
+                          "children": [
+                            {
+                              "type": "strong",
+                              "props": {
+                                "children": "Hobbies: "
+                              },
+                              "_store": {}
+                            },
+                            "h1,h2"
+                          ]
+                        },
+                        "_store": {}
+                      },
+                      {
+                        "type": "p",
+                        "props": {
+                          "children": [
+                            {
+                              "type": "strong",
+                              "props": {
+                                "children": "Skills: "
+                              },
+                              "_store": {}
+                            },
+                            [
+                              {
+                                "type": "span",
+                                "props": {
+                                  "className": "hobbie",
+                                  "children": {
+                                    "type": "Label",
+                                    "props": {
+                                      "bsStyle": "default",
+                                      "children": "s1,s2",
+                                      "bsClass": "label"
+                                    },
+                                    "_store": {}
+                                  }
+                                },
+                                "_store": {}
+                              }
+                            ]
+                          ]
+                        },
+                        "_store": {}
+                      }
+                    ],
+                    "componentClass": "div",
+                    "bsClass": "col"
+                  },
+                  "rendered": [
+                    {
+                      "nodeType": "host",
+                      "type": "h2",
+                      "props": {
+                        "children": "firstName lastName"
+                      },
+                      "rendered": "firstName lastName"
+                    },
+                    {
+                      "nodeType": "host",
+                      "type": "p",
+                      "props": {
+                        "children": [
+                          {
+                            "type": "strong",
+                            "props": {
+                              "children": "About: "
+                            },
+                            "_store": {}
+                          },
+                          "prof"
+                        ]
+                      },
+                      "rendered": [
+                        {
+                          "nodeType": "host",
+                          "type": "strong",
+                          "props": {
+                            "children": "About: "
+                          },
+                          "rendered": "About: "
+                        },
+                        "prof"
+                      ]
+                    },
+                    {
+                      "nodeType": "host",
+                      "type": "p",
+                      "props": {
+                        "children": [
+                          {
+                            "type": "strong",
+                            "props": {
+                              "children": "Hobbies: "
+                            },
+                            "_store": {}
+                          },
+                          "h1,h2"
+                        ]
+                      },
+                      "rendered": [
+                        {
+                          "nodeType": "host",
+                          "type": "strong",
+                          "props": {
+                            "children": "Hobbies: "
+                          },
+                          "rendered": "Hobbies: "
+                        },
+                        "h1,h2"
+                      ]
+                    },
+                    {
+                      "nodeType": "host",
+                      "type": "p",
+                      "props": {
+                        "children": [
+                          {
+                            "type": "strong",
+                            "props": {
+                              "children": "Skills: "
+                            },
+                            "_store": {}
+                          },
+                          [
+                            {
+                              "type": "span",
+                              "props": {
+                                "className": "hobbie",
+                                "children": {
+                                  "type": "Label",
+                                  "props": {
+                                    "bsStyle": "default",
+                                    "children": "s1,s2",
+                                    "bsClass": "label"
+                                  },
+                                  "_store": {}
+                                }
+                              },
+                              "_store": {}
+                            }
+                          ]
+                        ]
+                      },
+                      "rendered": [
+                        {
+                          "nodeType": "host",
+                          "type": "strong",
+                          "props": {
+                            "children": "Skills: "
+                          },
+                          "rendered": "Skills: "
+                        },
+                        {
+                          "nodeType": "host",
+                          "type": "span",
+                          "props": {
+                            "className": "hobbie",
+                            "children": {
+                              "type": "Label",
+                              "props": {
+                                "bsStyle": "default",
+                                "children": "s1,s2",
+                                "bsClass": "label"
+                              },
+                              "_store": {}
+                            }
+                          },
+                          "rendered": {
+                            "nodeType": "class",
+                            "type": "Label",
+                            "props": {
+                              "bsStyle": "default",
+                              "children": "s1,s2",
+                              "bsClass": "label"
+                            },
+                            "rendered": "s1,s2"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "type": "Col",
+              "props": {
+                "sm": 12,
+                "componentClass": "div",
+                "bsClass": "col"
+              },
+              "children": [
+                {
+                  "node": {
+                    "nodeType": "class",
+                    "type": "Col",
+                    "props": {
+                      "xs": 12,
+                      "sm": 8,
+                      "children": [
+                        {
+                          "type": "h2",
+                          "props": {
+                            "children": "firstName lastName"
+                          },
+                          "_store": {}
+                        },
+                        {
+                          "type": "p",
+                          "props": {
+                            "children": [
+                              {
+                                "type": "strong",
+                                "props": {
+                                  "children": "About: "
+                                },
+                                "_store": {}
+                              },
+                              "prof"
+                            ]
+                          },
+                          "_store": {}
+                        },
+                        {
+                          "type": "p",
+                          "props": {
+                            "children": [
+                              {
+                                "type": "strong",
+                                "props": {
+                                  "children": "Hobbies: "
+                                },
+                                "_store": {}
+                              },
+                              "h1,h2"
+                            ]
+                          },
+                          "_store": {}
+                        },
+                        {
+                          "type": "p",
+                          "props": {
+                            "children": [
+                              {
+                                "type": "strong",
+                                "props": {
+                                  "children": "Skills: "
+                                },
+                                "_store": {}
+                              },
+                              [
+                                {
+                                  "type": "span",
+                                  "props": {
+                                    "className": "hobbie",
+                                    "children": {
+                                      "type": "Label",
+                                      "props": {
+                                        "bsStyle": "default",
+                                        "children": "s1,s2",
+                                        "bsClass": "label"
+                                      },
+                                      "_store": {}
+                                    }
+                                  },
+                                  "_store": {}
+                                }
+                              ]
+                            ]
+                          },
+                          "_store": {}
+                        }
+                      ],
+                      "componentClass": "div",
+                      "bsClass": "col"
+                    },
+                    "rendered": [
+                      {
+                        "nodeType": "host",
+                        "type": "h2",
+                        "props": {
+                          "children": "firstName lastName"
+                        },
+                        "rendered": "firstName lastName"
+                      },
+                      {
+                        "nodeType": "host",
+                        "type": "p",
+                        "props": {
+                          "children": [
+                            {
+                              "type": "strong",
+                              "props": {
+                                "children": "About: "
+                              },
+                              "_store": {}
+                            },
+                            "prof"
+                          ]
+                        },
+                        "rendered": [
+                          {
+                            "nodeType": "host",
+                            "type": "strong",
+                            "props": {
+                              "children": "About: "
+                            },
+                            "rendered": "About: "
+                          },
+                          "prof"
+                        ]
+                      },
+                      {
+                        "nodeType": "host",
+                        "type": "p",
+                        "props": {
+                          "children": [
+                            {
+                              "type": "strong",
+                              "props": {
+                                "children": "Hobbies: "
+                              },
+                              "_store": {}
+                            },
+                            "h1,h2"
+                          ]
+                        },
+                        "rendered": [
+                          {
+                            "nodeType": "host",
+                            "type": "strong",
+                            "props": {
+                              "children": "Hobbies: "
+                            },
+                            "rendered": "Hobbies: "
+                          },
+                          "h1,h2"
+                        ]
+                      },
+                      {
+                        "nodeType": "host",
+                        "type": "p",
+                        "props": {
+                          "children": [
+                            {
+                              "type": "strong",
+                              "props": {
+                                "children": "Skills: "
+                              },
+                              "_store": {}
+                            },
+                            [
+                              {
+                                "type": "span",
+                                "props": {
+                                  "className": "hobbie",
+                                  "children": {
+                                    "type": "Label",
+                                    "props": {
+                                      "bsStyle": "default",
+                                      "children": "s1,s2",
+                                      "bsClass": "label"
+                                    },
+                                    "_store": {}
+                                  }
+                                },
+                                "_store": {}
+                              }
+                            ]
+                          ]
+                        },
+                        "rendered": [
+                          {
+                            "nodeType": "host",
+                            "type": "strong",
+                            "props": {
+                              "children": "Skills: "
+                            },
+                            "rendered": "Skills: "
+                          },
+                          {
+                            "nodeType": "host",
+                            "type": "span",
+                            "props": {
+                              "className": "hobbie",
+                              "children": {
+                                "type": "Label",
+                                "props": {
+                                  "bsStyle": "default",
+                                  "children": "s1,s2",
+                                  "bsClass": "label"
+                                },
+                                "_store": {}
+                              }
+                            },
+                            "rendered": {
+                              "nodeType": "class",
+                              "type": "Label",
+                              "props": {
+                                "bsStyle": "default",
+                                "children": "s1,s2",
+                                "bsClass": "label"
+                              },
+                              "rendered": "s1,s2"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "type": "Col",
+                  "props": {
+                    "xs": 12,
+                    "sm": 8,
+                    "componentClass": "div",
+                    "bsClass": "col"
+                  },
+                  "children": [
+                    {
+                      "node": {
+                        "nodeType": "host",
+                        "type": "h2",
+                        "props": {
+                          "children": "firstName lastName"
+                        },
+                        "rendered": "firstName lastName"
+                      },
+                      "type": "h2",
+                      "props": {},
+                      "children": [
+                        "firstName lastName"
+                      ]
+                    },
+                    {
+                      "node": {
+                        "nodeType": "host",
+                        "type": "p",
+                        "props": {
+                          "children": [
+                            {
+                              "type": "strong",
+                              "props": {
+                                "children": "About: "
+                              },
+                              "_store": {}
+                            },
+                            "prof"
+                          ]
+                        },
+                        "rendered": [
+                          {
+                            "nodeType": "host",
+                            "type": "strong",
+                            "props": {
+                              "children": "About: "
+                            },
+                            "rendered": "About: "
+                          },
+                          "prof"
+                        ]
+                      },
+                      "type": "p",
+                      "props": {},
+                      "children": [
+                        {
+                          "node": {
+                            "nodeType": "host",
+                            "type": "strong",
+                            "props": {
+                              "children": "About: "
+                            },
+                            "rendered": "About: "
+                          },
+                          "type": "strong",
+                          "props": {},
+                          "children": [
+                            "About: "
+                          ]
+                        },
+                        "prof"
+                      ]
+                    },
+                    {
+                      "node": {
+                        "nodeType": "host",
+                        "type": "p",
+                        "props": {
+                          "children": [
+                            {
+                              "type": "strong",
+                              "props": {
+                                "children": "Hobbies: "
+                              },
+                              "_store": {}
+                            },
+                            "h1,h2"
+                          ]
+                        },
+                        "rendered": [
+                          {
+                            "nodeType": "host",
+                            "type": "strong",
+                            "props": {
+                              "children": "Hobbies: "
+                            },
+                            "rendered": "Hobbies: "
+                          },
+                          "h1,h2"
+                        ]
+                      },
+                      "type": "p",
+                      "props": {},
+                      "children": [
+                        {
+                          "node": {
+                            "nodeType": "host",
+                            "type": "strong",
+                            "props": {
+                              "children": "Hobbies: "
+                            },
+                            "rendered": "Hobbies: "
+                          },
+                          "type": "strong",
+                          "props": {},
+                          "children": [
+                            "Hobbies: "
+                          ]
+                        },
+                        "h1,h2"
+                      ]
+                    },
+                    {
+                      "node": {
+                        "nodeType": "host",
+                        "type": "p",
+                        "props": {
+                          "children": [
+                            {
+                              "type": "strong",
+                              "props": {
+                                "children": "Skills: "
+                              },
+                              "_store": {}
+                            },
+                            [
+                              {
+                                "type": "span",
+                                "props": {
+                                  "className": "hobbie",
+                                  "children": {
+                                    "type": "Label",
+                                    "props": {
+                                      "bsStyle": "default",
+                                      "children": "s1,s2",
+                                      "bsClass": "label"
+                                    },
+                                    "_store": {}
+                                  }
+                                },
+                                "_store": {}
+                              }
+                            ]
+                          ]
+                        },
+                        "rendered": [
+                          {
+                            "nodeType": "host",
+                            "type": "strong",
+                            "props": {
+                              "children": "Skills: "
+                            },
+                            "rendered": "Skills: "
+                          },
+                          {
+                            "nodeType": "host",
+                            "type": "span",
+                            "props": {
+                              "className": "hobbie",
+                              "children": {
+                                "type": "Label",
+                                "props": {
+                                  "bsStyle": "default",
+                                  "children": "s1,s2",
+                                  "bsClass": "label"
+                                },
+                                "_store": {}
+                              }
+                            },
+                            "rendered": {
+                              "nodeType": "class",
+                              "type": "Label",
+                              "props": {
+                                "bsStyle": "default",
+                                "children": "s1,s2",
+                                "bsClass": "label"
+                              },
+                              "rendered": "s1,s2"
+                            }
+                          }
+                        ]
+                      },
+                      "type": "p",
+                      "props": {},
+                      "children": [
+                        {
+                          "node": {
+                            "nodeType": "host",
+                            "type": "strong",
+                            "props": {
+                              "children": "Skills: "
+                            },
+                            "rendered": "Skills: "
+                          },
+                          "type": "strong",
+                          "props": {},
+                          "children": [
+                            "Skills: "
+                          ]
+                        },
+                        {
+                          "node": {
+                            "nodeType": "host",
+                            "type": "span",
+                            "props": {
+                              "className": "hobbie",
+                              "children": {
+                                "type": "Label",
+                                "props": {
+                                  "bsStyle": "default",
+                                  "children": "s1,s2",
+                                  "bsClass": "label"
+                                },
+                                "_store": {}
+                              }
+                            },
+                            "rendered": {
+                              "nodeType": "class",
+                              "type": "Label",
+                              "props": {
+                                "bsStyle": "default",
+                                "children": "s1,s2",
+                                "bsClass": "label"
+                              },
+                              "rendered": "s1,s2"
+                            }
+                          },
+                          "type": "span",
+                          "props": {
+                            "className": "hobbie"
+                          },
+                          "children": [
+                            {
+                              "node": {
+                                "nodeType": "class",
+                                "type": "Label",
+                                "props": {
+                                  "bsStyle": "default",
+                                  "children": "s1,s2",
+                                  "bsClass": "label"
+                                },
+                                "rendered": "s1,s2"
+                              },
+                              "type": "Label",
+                              "props": {
+                                "bsStyle": "default",
+                                "bsClass": "label"
+                              },
+                              "children": [
+                                "s1,s2"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+};
+

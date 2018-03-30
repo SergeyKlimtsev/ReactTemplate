@@ -4,15 +4,12 @@ import Routers from './Routes.jsx';
 import NavBar from './NavBar.jsx';
 import './bootstrap.css'
 
-class Content extends React.Component {
-    render() {
-        return <div>
-            <NavBar/>
-            <Grid>
-                <Routers/>
-            </Grid>
-        </div>
-    }
-}
+const Content = () => <div>
+    <NavBar/>
+    <Grid>
+        <Routers/>
+    </Grid>
+</div>;
+
 
 export default Content;

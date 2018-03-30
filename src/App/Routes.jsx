@@ -8,7 +8,7 @@ import {
 } from 'react-router-dom'
 
 
-const routes = props =>
+const routes = () =>
     <Router>
         <div>
             <Route exact path="/" component={Home}/>

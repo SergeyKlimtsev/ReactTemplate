@@ -39,13 +39,16 @@ const config = {
         port: 9000,
         contentBase: path.join(__dirname, "dist"),
         hot: true,
-        historyApiFallback: true
-        /* headers: {'Access-Control-Allow-Origin': '*'/!*, 'Access-Control-Expose-Headers': 'token'*!/},
-         proxy: [{
-             context: ['/!**'],
-             target: 'http://localhost:8080',
-             changeOrigin: true
-         }]*/
+        historyApiFallback: true,
+        proxy: {
+            "/data**": {
+                target: "http://localhost:4730",
+                secure: false,
+                pathRewrite: {
+                    '^/data': ''
+                }
+            }
+        }
     }
 };
 

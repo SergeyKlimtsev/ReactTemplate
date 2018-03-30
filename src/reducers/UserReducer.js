@@ -8,27 +8,7 @@ import {
 
 const initialState = {
     search: '',
-    users: [
-        {
-            id: '1',
-            firstName: 'Nicole',
-            lastName: 'Pearson',
-            name: 'useless',
-            active: true,
-            prof: 'Web Designer / UI',
-            hobbies: ['Read', 'out with friends', 'listen to music'],
-            skills: ['html5', 'css3', 'react']
-        }, {
-            id: '2',
-            firstName: 'Johnny',
-            lastName: 'Cage',
-            name: 'notSoUseless',
-            active: false,
-            prof: 'Actor',
-            hobbies: ['kick ass', 'be awesome'],
-            skills: ['balls crash']
-        }
-    ]
+    users: []
 };
 export default function (state = initialState, action) {
     switch (action.type) {
