@@ -13,7 +13,8 @@ export const enableDisableUser = (userId, value) => ({type: ENABLE_DISABLE_USER,
 export const setSearch = search => ({type: SET_SEARCH, search});
 
 
-export const fetchUsers = () => dispatch => axios
-    .get('/data/')
-    .then(({data}) => dispatch(setUsers(data)));
+export const fetchUsers = () => async dispatch => {
+    const {data} = await axios.get('/data/');
+    dispatch(setUsers(data));
+};
 

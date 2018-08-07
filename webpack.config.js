@@ -7,7 +7,7 @@ const path = require('path');
 const styleFileName = 'style.css';
 const config = {
     entry: {
-        app: './src/App/App.jsx'
+        app: ['babel-polyfill', './src/App/App.jsx']
     },
     output: {
         path: path.resolve(__dirname, "dist"),
